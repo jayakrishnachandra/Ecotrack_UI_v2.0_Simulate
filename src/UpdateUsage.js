@@ -216,7 +216,7 @@ const UpdateUsage = ({ token }) => {
       sendUsageData(generateRandomUsage());
       const id = setInterval(() => {
         sendUsageData(generateRandomUsage());
-      }, 5000);
+      }, 1000);
       setIntervalId(id);
       setIsRunning(true);
     }
